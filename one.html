@@ -26,14 +26,27 @@ data-sport-name="tennis">balla</a>
  <script>
     document.getElementById("para").innerHTML="kesi ho";
 </script> -->
-<button>hello</button>
+<!-- <button>hello</button>
 <script>
     const button = document.querySelector("button");
     button.setAttribute("name", "hello");
     button.setAttribute = "button";
 
-</script>
+</script> -->
+<div onmouseover="mOver(this)" onmouseout="mOut (this)"
+style="background-color:rgb(150, 36, 36); width: 100px;px; height: 30px; padding: 40px;" >
+ANGELINA
 
+</div>
+<script>
+    function mOver(obj) {
+        obj.innerHTML = "curser is on the div";
+}
+
+function mOut(obj) {
+        obj.innerHTML = "curser is  not on the div";
+}
+</script>
 
 
 
